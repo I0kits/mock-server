@@ -1,0 +1,14 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/I0kits/mock-server.git",
+  "author": "dgchen <dgchen@thoughtworks.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch resource/*.json"
+  },
+  "dependencies": {
+    "json-server": "^0.12.0"
+  }
+}
